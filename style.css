@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  color: #444;
+}
+
+/* GENERAL */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+
+  gap: 4.8rem;
+}
+
+.grid--center-v {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #666;
+  padding: 1.2rem 2.4rem;
+  border: 1px solid #000;
+  border-radius: 9px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  /* background-color: #777; */
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+
+  font-size: 1.6rem;
+}
+
+.main-nav-item {
+  /* color: #fff; */
+  padding: 0.9rem 1.8rem;
+}
+/* 
+.btn-main-nav:link,
+.btn-main-nav:visited {
+  display: inline-block;
+  text-decoration: none;
+
+  font-weight: 500;
+}
+.btn-main-nav:hover,
+.btn-main-nav:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+} */
+
+/* HERO */
+.section-container {
+  padding: 7.4rem 0;
+}
+
+.left-text-box {
+  display: flex;
+  flex-direction: column;
+
+  padding: 6.2rem 0;
+  align-items: center;
+  /* border-right: 2px solid #333; */
+}
+
+.img-author {
+  width: 25rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+  transition: all 0.4s;
+}
+.img-author:hover {
+  transform: scale(1.1);
+}
+
+.author-name {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.right-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-title {
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.right-description {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.social-item {
+  /* font-size: 1.8rem; */
+
+  /*  */
+}
+
+.social-icon {
+  display: inline-block;
+  align-items: center;
+  /* justify-content: center; */
+
+  width: 2.4rem;
+  height: 2.4rem;
+  /* height: 3rem; */
+}
+
+.btn-social-link:link,
+.btn-social-link:visited {
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.btn-social-link:hover,
+.btn-social-link:active {
+  color: #ff8c00;
+}
+
+/* FOOTER */
+footer {
+  padding: 2.4rem 0;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
